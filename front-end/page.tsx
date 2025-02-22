@@ -1,11 +1,8 @@
 "use client"
 
-import type React from "react"
+import React from "react"
 
-import { useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { useState, Input, Card, CardContent, CardHeader, CardTitle, Button} from "react"
 import { MapPin, Search } from "lucide-react"
 
 export default function SpotMatch() {
