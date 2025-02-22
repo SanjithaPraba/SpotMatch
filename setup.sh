@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create and activate virtual environment
-python3 -m venv venv
+python3 -m venv hackdowntown-venv
 source venv/bin/activate
 
 # Upgrade pip and install dependencies
